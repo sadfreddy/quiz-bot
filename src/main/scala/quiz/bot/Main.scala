@@ -12,7 +12,6 @@ import quiz.bot.http.{BotClient, BotService, HttpServer}
 
 import scala.concurrent.ExecutionContext
 
-
 object Main extends IOApp {
 
   private val httpClient =
