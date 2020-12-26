@@ -1,6 +1,5 @@
 package quiz.bot.http
 
-import cats.MonadError
 import cats.effect._
 import org.http4s.HttpRoutes
 import org.http4s.implicits._

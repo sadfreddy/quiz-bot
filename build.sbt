@@ -36,3 +36,4 @@ libraryDependencies ++= Seq(
 
 addCompilerPlugin("org.typelevel" %% "kind-projector" % "0.11.1" cross CrossVersion.full)
 
+envVars in reStart := Map("BOT_TOKEN" -> "1498269939:AAFVG8S3e5GL3Vl3tCx9WTtuPoW9z1wNj10")
